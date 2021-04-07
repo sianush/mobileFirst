@@ -13,3 +13,43 @@ DESCARGANDO ASSETS
         Clasificamos los assets según el tipo de recurso (imagen, ícono, etc…), además es recomendble que sigamos un estándar para nombrar nuestros archivos (nombre corto, desciptivo, en minúsculas, sin espacios) .
         Finalmente la estructura de carpetas de nuestro proyecto debería quedar de esta forma:
 
+ESTILOS BASES
+        estilos iniciales:
+
+                *{
+                        padding: 0;
+                        margin: 0;
+                        box-sizing: border-box;
+                        }
+
+                body{
+                        font-size: 62.5%;
+                        }
+
+        variables: hasta arriba antes del * o html
+                        :root{
+                        /* COLORES */
+                        --bitcoin-orange: #F7931A;
+                        --soft-orange: #ffe9d5;
+                        --secondary-blue: #1A9AF7;
+                        --soft-blue: #e7f5ff;
+                        --warm-black: #282623;
+                        --black: #201e1c;
+                        --grey: #bababa;
+                        --off-white: #faf8f7;
+                        --just-white: #fff;
+                        }
+
+MAQUETACIÓN DEL HEADER
+         Sólo usar un h1 sin repetirlo
+
+
+IMPLEMENTAR BEM
+         nombrando clases BEM 
+
+
+ align-self: center; FORMA D ELINEAR UN CONTENEDOR CON DISPLAY FLEX
+ 
+
+BOTÓN FLOTANTE CON POSITION
+        
